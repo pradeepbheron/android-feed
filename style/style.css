@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font: 13px/1.231 sans-serif;
+	background-image:url(../image/graphy.png);
+	background-repeat:repeat;
+}
+
+.site-area {
+	float:top;
+	text-align:left;
+	width: 250px;
+	background: #ffffa2;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	padding: 1.2em;
+	padding-top:5px;
+	margin: 10px 10px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.3),0 0 10px rgba(0,0,0,0.1) inset;
+	-moz-box-shadow: 0 1px 4px rgba(0,0,0,0.3),0 0 10px rgba(0,0,0,0.1) inset;
+	box-shadow: 0 1px 10px rgba(0,0,0,0.3),0 0 10px rgba(0,0,0,0.1) inset;
+}
+
+.site-title {
+	font-family:McLaren-Regular;
+	font-size:16px;
+	font-weight:bold;
+	padding-bottom:10px;
+	}
+
+.site-like {
+	padding-right:0px;
+	padding-bottom:10px;
+	}
+
+ul {
+	font-family:McLaren-Regular;
+	font-size:14px;
+	padding:0 0 0 20px;
+	margin:0;
+	text-decoration:none;
+}
+
+
+@font-face {
+	font-family:'McLaren-Regular';
+	src:url(../font/McLaren-Regular.ttf);
+	font-weight:normal;
+	
+}
+	
+#post-title a{ 
+	color: #D80101;
+	text-decoration: none;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+#post-title a:hover{ 
+	color:#000033;
+	text-decoration: none;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.post_results ul {
+    list-style:none;
+    text-align:left;
+    padding:0 0 0 25px;
+    margin: 0;
+}
+.post_results ul li {
+	list-style:circle;
+}
+
+.post_results ul li a{
+    font-size: 14px;
+}
+
+.post_results ul li a:hover{
+    color:#000;
+	text-decoration:none;
+}
+
+.heading {
+	font-family:McLaren-Regular;
+	font-size:34px;
+	font-weight:bold;
+	padding-left:60px;
+	padding-top:30px;
+	
+}
+
+.contactform {
+	padding-left:60px;
+	padding-top:20px;
+}
